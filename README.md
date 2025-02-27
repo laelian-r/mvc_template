@@ -18,21 +18,29 @@
 
 ## Installation  
 
-1. Exécutez la commande :  
+1. Exécutez les commandes :  
    ```sh
     git clone {lien_du_repository_github}
+    ```
+
+    ```sh
     cd {nom_projet}
     ```
 
 2. Installez les dépendances : 
-``composer install``
+    ```sh
+    composer install
+    ```
 
 
 ## Démarrage
 
-Pour démarrer le projet, exécutez la commande :
+Pour démarrer le projet, exécutez les commandes :
 ```sh
 cd public
+```
+
+```sh
 php -S localhost:8000
 ```
 
