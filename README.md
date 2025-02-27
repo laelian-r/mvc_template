@@ -13,7 +13,7 @@
 ## Pré-requis  
 
 1. Il faut être à l'aise avec le modèle MVC. 
- 
+
 2. Il faut un serveur local comme WampServer, XAMPP ou autre doit être installé sur votre ordinateur.  
 
 
@@ -23,6 +23,7 @@
    ```sh
     git clone {lien_du_repository_github}
     ```
+    et
 
     ```sh
     cd {nom_projet}
@@ -40,7 +41,7 @@ Pour démarrer le projet, exécutez les commandes :
 ```sh
 cd public
 ```
-
+et
 ```sh
 php -S localhost:8000
 ```
