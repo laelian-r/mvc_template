@@ -12,8 +12,9 @@
 
 ## Pré-requis  
 
-- Il faut être à l'aise avec le modèle MVC.  
-- Un serveur local comme WampServer, XAMPP ou autre doit être installé sur votre ordinateur.  
+1. Il faut être à l'aise avec le modèle MVC. 
+ 
+2. Il faut un serveur local comme WampServer, XAMPP ou autre doit être installé sur votre ordinateur.  
 
 
 ## Installation  
