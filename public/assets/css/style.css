@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    width: 100%;
+}
+
+
+/* NAVBAR */
+
+nav {
+    background-color: aqua;
+    padding: 1rem 2rem;
+}
+
+ul {
+    display: flex;
+    gap: 2rem;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* MAIN */
+
+main {
+    height: 100%;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: aqua;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

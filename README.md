@@ -1,42 +1,25 @@
 # Titre du projet
-Description du projet
+> Description du projet
 
 ## Pour commencer
 
-Entrez ici les instructions pour bien débuter avec votre projet...
+Pour commencer il faut que vous aillez composer installé sur votre ordinateur.
+Sans ça le projet ne peut pas fonctionner.
 
 ### Pré-requis
 
-Ce qu'il est requis pour commencer avec votre projet...
-
-- Programme 1
-- Programme 2
-- etc...
+- Il faut connaître le pattern MVC
+- Il faut un serveur local comme wampserver, xampp ou autre installé sur votre ordinateur
 
 ### Installation
 
-Les étapes pour installer votre programme....
+1. Executez la commande ``git clone {lien_du_repository_github}`` puis ``cd {nom_projet}``
 
-Dites ce qu'il faut faire...
-
-_exemple_: Executez la commande ``telnet mapscii.me`` pour commencer ensuite [...]
-
-
-Ensuite vous pouvez montrer ce que vous obtenez au final...
+2. Executez la commande ``composer install``
 
 ## Démarrage
 
-Dites comment faire pour lancer votre projet
+Pour démarrer le projet, executez la commande ``cd public`` puis ``php -S localhost:8000``
 
-## Fabriqué avec
-
-Entrez les programmes/logiciels/ressources que vous avez utilisé pour développer votre projet
-
-_exemples :_
-* [Materialize.css](http://materializecss.com) - Framework CSS (front-end)
-
-## Auteurs
-Listez le(s) auteur(s) du projet ici !
-* **Jhon doe** _alias_ [@laelian-r](https://github.com/laelian-r)
-
-_(pour le lien mettez simplement l'URL de votre projet suivi de ``/contirubors``)_
+## Auteur
+* **Laélian Roux** _alias_ [@laelian-r](https://github.com/laelian-r)

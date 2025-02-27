@@ -1,0 +1,9 @@
+{
+    "name": "laelian-emir/projet_binome_lyon_2025",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ProjetName\\": "src/"
+        }
+    }
+}
