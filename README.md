@@ -22,10 +22,6 @@
 1. Exécutez les commandes :  
    ```sh
     git clone {lien_du_repository_github}
-
-    - Cliquez deux fois sur la touche ENTRER du clavier
-    - Cliquez sur la touche N du clavier
-    - Cliquez deux fois sur la touche ENTRER du clavier jusqu\'à la fin
     ```
 
     ```sh
@@ -35,6 +31,10 @@
 2. Installez les dépendances : 
     ```sh
     composer init
+
+    - Cliquez deux fois sur la touche ENTRER du clavier
+    - Cliquez sur la touche N du clavier
+    - Cliquez deux fois sur la touche ENTRER du clavier jusqu\'à la fin
     ```
 
     ```sh
