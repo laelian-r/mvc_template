@@ -1,8 +1,8 @@
 <?php
-namespace ProjetName\Controllers;
+namespace App\Controllers;
 
-use ProjetName\Models\HomeManager;
-use ProjetName\Validator;
+use App\Models\HomeManager;
+use App\Validator;
 
 class HomeController {
     private $manager;
@@ -12,11 +12,11 @@ class HomeController {
     }
 
     public function index() {
-        require VIEWS . 'ProjetName/homepage.php';
+        require VIEWS . 'App/homepage.php';
     }
 
     public function viewLink() {
         // $data = $this->manager->all();
-        require VIEWS . 'ProjetName/link.php';
+        require VIEWS . 'App/link.php';
     }
 }

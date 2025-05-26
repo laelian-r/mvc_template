@@ -1,5 +1,5 @@
 <?php
-namespace ProjetName;
+namespace App;
 
 //use App\Controllers\UserController;
 /** Class Router **/

@@ -1,7 +1,7 @@
 <?php
-namespace ProjetName\Models;
+namespace App\Models;
 
-use ProjetName\Models\Home;
+use App\Models\Home;
 /** Class HomeManager **/
 class HomeManager {
 
@@ -19,6 +19,6 @@ class HomeManager {
     public function all() {
         $stmt = $this->bdd->query('SELECT * FROM table_name');
 
-        return $stmt->fetchAll(\PDO::FETCH_CLASS, "ProjetName\Models\Home");
+        return $stmt->fetchAll(\PDO::FETCH_CLASS, "App\Models\Home");
     }
 }

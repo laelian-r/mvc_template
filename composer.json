@@ -1,0 +1,9 @@
+{
+    "name": "lalian/mvc_template",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {}
+}

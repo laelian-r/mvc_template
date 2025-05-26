@@ -1,6 +1,6 @@
 <?php
 
-namespace ProjetName;
+namespace App;
 
 /** Class Validator **/
 class Validator {

@@ -1,5 +1,5 @@
 <?php
-namespace ProjetName;
+namespace App;
 
 class Route {
 
@@ -27,7 +27,7 @@ class Route {
 
     public function call() {
          $rep = explode("@", $this->callable);
-         $controller = "ProjetName\\Controllers\\".$rep[0];
+         $controller = "App\\Controllers\\".$rep[0];
          $controller = new $controller();
 
         return call_user_func_array([$controller, $rep[1]], $this->matches);

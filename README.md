@@ -2,19 +2,21 @@
 > Description du projet  
 
 
+## Pré-requis  
+
+1. Il faut être à l'aise avec le modèle MVC. 
+ 
+2. Il faut un serveur local comme WampServer, XAMPP ou autre doit être installé sur votre ordinateur.
+
+
 ## Pour commencer  
 
 - Vous devez avoir `composer` installé sur votre ordinateur.  
   Sans cela, le projet ne peut pas fonctionner.  
 
-- Vous devez modifier le nom de la base de données à la ligne 9 dans `src/config/config.php`.  
+- À l'aide de votre server local, demarrer phpMyAdmin puis créer une nouvlelle base de données pour faire fonctionner votre projet.
 
-
-## Pré-requis  
-
-1. Il faut être à l'aise avec le modèle MVC. 
- 
-2. Il faut un serveur local comme WampServer, XAMPP ou autre doit être installé sur votre ordinateur.  
+- Vous devez modifier `DB_NAME` par le nom de votre base de données à la ligne 8 du fichier config.php dans `src/config/config.php`.
 
 
 ## Installation  
@@ -28,7 +30,7 @@
     cd {nom_projet}
     ```
 
-2. Installez les dépendances : 
+2. Installez les dépendances à la racine du projet : 
     ```sh
     composer init
 
@@ -44,7 +46,7 @@
 
 ## Démarrage
 
-Pour démarrer le projet, exécutez les commandes :
+Pour démarrer le projet, exécutez les commandes suivantes :
 ```sh
 cd public
 ```

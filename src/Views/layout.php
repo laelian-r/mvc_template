@@ -31,7 +31,7 @@ $a=1;
     </main>
 
     <footer>
-        <p>Gestion ProjetName</p>
+        <p>Gestion App</p>
     </footer>
 </body>
 </html>
