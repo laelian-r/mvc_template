@@ -30,15 +30,7 @@
     cd {nom_projet}
     ```
 
-2. Installez les dépendances à la racine du projet : 
-    ```sh
-    composer init
-
-    - Cliquez deux fois sur la touche ENTRER du clavier
-    - Cliquez sur la touche N du clavier
-    - Cliquez deux fois sur la touche ENTRER du clavier jusqu\'à la fin
-    ```
-
+2. Entrez la commande suivante à la racine du projet :
     ```sh
     composer install
     ```
