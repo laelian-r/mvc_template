@@ -16,7 +16,7 @@
 
 - À l'aide de votre server local, demarrer phpMyAdmin puis créer une nouvlelle base de données pour faire fonctionner votre projet.
 
-- Vous devez modifier `DB_NAME` par le nom de votre base de données à la ligne 8 du fichier config.php dans `src/config/config.php`.
+- Vous devez modifier `DB_NAME` par le nom de votre base de données à la ligne 8 du fichier `config.php` dans `src/config/config.php`.
 
 
 ## Installation  
