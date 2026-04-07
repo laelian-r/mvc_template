@@ -6,7 +6,7 @@ require '../src/config/config.php';
 require '../vendor/autoload.php';
 require SRC . 'helper.php';
 
-$router = new MVC\Router($_SERVER["REQUEST_URI"]);
+$router = new App\Router($_SERVER["REQUEST_URI"]);
 $router->get('/', "HomeController@index");
 $router->get('/auth/login/', "UserController@showLogin");
 $router->get('/auth/register/', "UserController@showRegister");

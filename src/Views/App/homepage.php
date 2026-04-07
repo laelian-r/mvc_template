@@ -1,18 +1,20 @@
 <?php
 ob_start();
-
-
-if (!isset($_SESSION['user'])) {
-    header('Location: /auth/login/');
-}
-
+$title = "Homepage";
 ?>
 
-<main>
-    <p>Hello, World!</p>
-</main>
+    <h1>Hompage</h1>
 
 <?php
+$content = ob_get_clean();
+require VIEWS . 'layout.php';
+<?php
+ob_start();
+$title = "Homepage";
+?>
 
+    <h1>Hompage</h1>
+
+<?php
 $content = ob_get_clean();
 require VIEWS . 'layout.php';

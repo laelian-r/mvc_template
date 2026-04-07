@@ -1,17 +1,22 @@
 <?php
+namespace App\Controllers;
 
-namespace MVC\Controllers;
+use App\Models\HomeManager;
+use App\Validator;
 
-class HomeController
-{
-    public function __construct()
-    {
+class HomeController {
+    private $manager;
 
+    public function __construct() {
+        $this->manager = new HomeManager();
     }
 
-    public function index()
-    {
+    public function index() {
         require VIEWS . 'App/homepage.php';
     }
 
+    public function viewLink() {
+        // $data = $this->manager->all();
+        require VIEWS . 'App/link.php';
+    }
 }
