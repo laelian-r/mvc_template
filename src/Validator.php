@@ -1,6 +1,6 @@
 <?php
 
-namespace ProjetName;
+namespace MVC;
 
 /** Class Validator **/
 class Validator {
